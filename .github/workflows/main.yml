@@ -1,1 +1,25 @@
+on:
+  push:
+    branches:
+      - master1:
 
+
+
+
+
+
+
+
+
+
+jobs:
+  build: 
+    runs-on: ubuntu-latest
+
+
+    steps:
+      - name: 'laravel1'
+        run: pwd
+      - name: ' testing laravel1'
+        run: echo hasnaa
+      
