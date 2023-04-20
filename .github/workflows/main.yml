@@ -1,14 +1,7 @@
 on:
   push:
     branches:
-      - master1:
-
-
-
-
-
-
-
+      - master1
 
 
 
@@ -20,6 +13,7 @@ jobs:
     steps:
       - name: 'laravel1'
         run: pwd
+        
       - name: ' testing laravel1'
         run: echo hasnaa
       
